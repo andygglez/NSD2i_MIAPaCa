@@ -1,0 +1,3 @@
+make_tracks_file --trackFiles D1_NSD2.cpm.bw D1_H3K36me2.ms_cpm.bw D1_H3K36me3.ms_cpm.bw D1_H3K27me3.ms_cpm.bw D1_H3K4me3.clipped.cpm.bw D1_H3K4me1.ms_cpm.bw D1_H3K27ac.ms_cpm.bw D1_H3K9me3.ms_cpm.bw D1_NiceSeq.cpm.bw hg38.ncbiRefSeq.gtf -o D1.ini
+
+pyGenomeTracks --tracks D1.ini --region chr2:35,000,000-56,000,000 --dpi 1200 -o baseline_day1_genome_browser_tracks.pdf --height 6.0 --plotWidth 10 --trackLabelHAlign left --fontSize 3.5

@@ -1,0 +1,3 @@
+make_tracks_file --trackFiles Vehicle_D5_merged.H3K36me2.ms_cpm.bw NSD2i_D5_merged.H3K36me2.ms_cpm.bw Vehicle_D5_merged.H3K27me3.ms_cpm.bw /NSD2i_D5_merged.H3K27me3.ms_cpm.bw hg38.ncbiRefSeq.gtf -o D5_H3K36me2_H3K27me3.ini
+
+pyGenomeTracks --tracks D5_H3K36me2_H3K27me3.ini --region chr5:71,000,000-85,000,000 --dpi 1200 -o D5_K36me2_K27me3_genome_browser_tracks.pdf --height 6.0 --plotWidth 10 --trackLabelFraction 0.00000001 --trackLabelHAlign center --fontSize 4.0
